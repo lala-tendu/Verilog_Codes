@@ -1,5 +1,5 @@
-module half_adder (
-    input  wire A,B,Cin
+module full_adder (
+    input wire A,B,Cin
     output reg sum, Cout
 );
    always @(A or B or Cin) 
